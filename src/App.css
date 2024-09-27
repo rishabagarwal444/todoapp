@@ -1,29 +1,31 @@
 .App {
   text-align: center;
-  background: linear-gradient(135deg, #282c34, #3a3f47);
+  background: url('https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?w=996&t=st=1727414317~exp=1727414917~hmac=dd551e9d6fff7932b9da4a04192b782ea1d3c5219ba3a8bf548d8936377c3442') no-repeat center center fixed;
+  background-size: cover;
   min-height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 35vmin;
   pointer-events: none;
-  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.3));
   transition: transform 0.3s ease-in-out;
 }
 
 .App-logo:hover {
-  transform: scale(1.05) rotate(10deg);
+  transform: scale(1.1) rotate(15deg);
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 15s linear;
+    animation: App-logo-spin infinite 12s linear;
   }
 }
 
 .App-header {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.75);
   border-radius: 15px;
   padding: 40px;
   display: flex;
@@ -32,8 +34,9 @@
   justify-content: center;
   font-size: calc(12px + 2vmin);
   color: #ffffff;
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.7);
   margin: 20px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 .App-link {
@@ -42,6 +45,7 @@
   font-weight: bold;
   border-bottom: 2px solid transparent;
   transition: all 0.3s ease-in-out;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
 }
 
 .App-link:hover {
@@ -57,4 +61,44 @@
     transform: rotate(360deg);
   }
 }
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  font-size: calc(10px + 1vmin);
+  color: #d0d0d0;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  background-color: #61dafb;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background-color: #21a1f1;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
 
